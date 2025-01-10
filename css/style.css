@@ -141,3 +141,53 @@ h2.bannerDes {
     color: #006A50;
     background: white;
 }
+
+
+
+.pillarsSecton {
+  padding: 70px 0px;
+}
+
+.pillersHeading h2 {
+  margin-bottom: 50px;
+}
+
+.pillersItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.pillersContent {
+    border: 1px solid #dfdfdf;
+    width: 305px;
+    height: 205px;
+    padding: 20px;
+    background: #fff;
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+.pillersContent:hover{
+  background: #006A50;
+  color: #fff !important;
+}
+
+.pillersContent h2 {
+    margin: 10px 0px;
+    color: #6a6a6a;
+    font-size: 20px;
+}
+
+.pillersContent p {
+   
+    font-weight: 500;
+    color: #544f4f;
+  
+}
+
+.pillersContent:hover h2, 
+.pillersContent:hover p {
+  color: #fff;
+}
