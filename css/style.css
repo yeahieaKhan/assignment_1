@@ -293,6 +293,20 @@ h2.bannerDes {
     background-color: #006A50;
 }
 /** fututer secton send **/
+
+.adviser {
+  border: 1px solid gray;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.adviser{
+  background: url("../img/quote-bg.png");
+  background-repeat:no-repeat ;
+  background-position: 20px 20px;
+}
+
+
 /** Recent nes start **/
 .recentNews {
   padding: 70px 15px;
