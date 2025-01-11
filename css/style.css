@@ -521,7 +521,7 @@ input:focus {
 
 /* Footer Section */
 .footerSection {
-  padding: 100px 0px;      
+  margin: 30px 0px;    
   text-align: center;   
   padding: 20px 10px;   
   font-family: Arial, sans-serif; 
@@ -531,7 +531,8 @@ input:focus {
 .footerSection h2 {
   font-size: 24px;      
   margin-bottom: 10px;   
-  color: #00bcd4;      
+  color: #00bcd4;   
+  margin-bottom: 30px;   
 }
 
 
@@ -546,7 +547,8 @@ input:focus {
 .footerIcon i {
   font-size: 20px;       
   transition: transform 0.3s ;
-  cursor: pointer;       
+  cursor: pointer; 
+  margin-bottom: 30px;      
 }
 
 
