@@ -233,9 +233,15 @@ h2.bannerDes {
 .digitalVision img {
   margin-bottom: 20px;
 }
-
-
-
+.digitalVision{
+  background: #D5E1F5 !important;
+}
+.energyVision{
+  background: #C6E4D6 !important;
+}
+.infrasVision{
+  background: #F7EBCF !important;
+}
 .futureItems {
     display: flex;
     justify-content: space-around;
