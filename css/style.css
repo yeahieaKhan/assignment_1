@@ -74,7 +74,7 @@ img{
 
 
 
-/** nav bar  **/
+/** nav bar  start **/
 
 
 nav.menu {
@@ -95,13 +95,15 @@ button.loginBtn {
     text-transform: capitalize;
     font-size: 18px;
     border-radius: 10px;
+    transition: .5s;
 }
+.loginBtn:hover{
+  background: #006A50;
+  color: #fff;
+}
+/** nav bar  end **/
 
-
-
-
-
-
+/** banner   start **/
 .bannerItem{
     background: linear-gradient(90deg, #c1e2d3 0%, #c6edda 53%, #d1f3e2 74%);
     border-radius: 25px;
@@ -110,8 +112,6 @@ button.loginBtn {
     align-items: center;
     padding: 54px 0px;
 }
-
-
 
 p.bannerTitle {
     font-size: 22px;
@@ -141,9 +141,9 @@ h2.bannerDes {
     color: #006A50;
     background: white;
 }
+/** banner end **/
 
-
-
+/** pillar section start **/
 .pillarsSecton {
   padding: 70px 0px;
 }
@@ -167,11 +167,13 @@ h2.bannerDes {
     background: #fff;
     transition: .5s;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
    
 }
 .pillersContent:hover{
   background: #006A50;
   color: #fff !important;
+  border-radius: 15px;
 }
 
 .pillersContent h2 {
@@ -191,3 +193,363 @@ h2.bannerDes {
 .pillersContent:hover p {
   color: #fff;
 }
+/** pillar section end **/
+
+/** fututer secton section start **/
+.futerVison {
+  padding: 50px 0px;
+}
+
+.futureTitle h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.futureTitle p {
+  line-height: 22px;
+  color: #666565;
+  font-size: 18px;
+}
+
+
+.futureContent {
+  margin-top: 30px;
+}
+
+.futureItmes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.digitalVision,
+.infrasVision,
+.energyVision {
+  height: 325px;
+  width: 410px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.digitalVision img {
+  margin-bottom: 20px;
+}
+
+
+
+.futureItems {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.visionCard {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visionCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.visionCard img {
+    max-width: 100px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.visionCard:hover img {
+    transform: scale(1.1);
+}
+
+.visionCard h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.visionCard p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+.visionCard button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.visionCard button:hover {
+    background-color: #006A50;
+}
+/** fututer secton send **/
+/** Recent nes start **/
+.recentNews {
+  padding: 70px 15px;
+  width: 1160px;
+  margin: auto;
+}
+
+.newsTitle {
+  margin-bottom: 30px;
+}
+
+.newsTitle h2 {
+  font-size: 30px;
+  margin-bottom: 11px;
+}
+
+.newsTitle p {
+  line-height: 26px;
+  font-size: 18px;
+  color: #878787;
+}
+
+.newsContentTop {
+  display: flex;
+  /* justify-content: revert; */
+  /* gap: 112px; */
+  margin-top: 70px;
+}
+
+.newsContentImg {
+  width: 480px;
+  /* height: 305px; */
+  display: block;
+}
+
+.newsContentImg img {
+  border-radius: 18px;
+  display: block;
+}
+
+
+
+.topNews {
+  /* margin-left: 65px; */
+  width: 800px;
+}
+
+.topNews h2 {
+  font-size: 30px;
+  margin: 13px 0px;
+}
+
+.topNews img {
+  margin-bottom: 10px;
+}
+
+.topNews p {
+  margin: 10px 0px;
+}
+
+.topNews h4 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.newsBtn button {
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: .5s;
+}
+.newsBtn button:hover{
+  background: #006A50;
+  color: #fff;
+}
+
+.newsCententLeft {
+  display: flex;
+  margin-top: 60px;
+}
+/** Recent nes start end **/
+
+/** donate section start **/
+.donateTitle {
+  text-align: center;
+}
+
+.donateSection {
+  padding: 70px 0px;
+}
+
+.donateTitle h2 {
+  font-size: 35px;
+  margin-bottom: 13px;
+}
+
+.donateTitle p {
+  font-size: 18px;
+  color: #686666;
+}
+
+.donateContent {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+
+
+.donateAmount {
+  width: 250px;
+  border: 1px solid #a9a9a9;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  transition: .5s;
+}
+.donateAmount:hover{
+  background: #09A15C;
+  color: #fff;
+}
+
+.donateTaka {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.donateTaka {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.donateTaka input {
+  padding: 13px;
+  width: 100%;
+  border-bottom: 1px solid red;
+  border: none;
+  border-bottom: 1px solid red;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd; /* Optional border */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+}
+input:focus {
+  border: none;
+  outline: 0;
+}
+
+/** donate section end **/
+/** mail section start **/
+.mailContent {
+  width: 1280px;
+  height: 400px;
+  background: #C6E4D6;
+  text-align: center;
+}
+
+.mailContent h2 {
+  padding-top: 95px;
+}
+
+.mailContent h2 {
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+
+.ContentSubscription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+.ContentSubscription input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  transition: width 0.3s , border-color 0.3s;
+}
+
+.subscription-input:focus {
+  width: 300px;
+  border-color: #007bff;
+}
+
+.subSBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  transition: background-color .3s ;
+}
+
+.subSBtn:hover {
+  background-color: #b30000;
+  border: 1px solid red;
+}
+
+/* Footer Section */
+.footerSection {
+  padding: 100px 0px;      
+  text-align: center;   
+  padding: 20px 10px;   
+  font-family: Arial, sans-serif; 
+}
+/** mail section end **/
+/** footer section start **/
+.footerSection h2 {
+  font-size: 24px;      
+  margin-bottom: 10px;   
+  color: #00bcd4;      
+}
+
+
+.footerIcon {
+  margin-top: 10px;     
+  display: flex;         
+  justify-content: center;
+  gap: 15px;             
+}
+
+
+.footerIcon i {
+  font-size: 20px;       
+  transition: transform 0.3s ;
+  cursor: pointer;       
+}
+
+
+.footerIcon .fa-facebook {
+  color: #1877f2; 
+}
+
+.footerIcon .fa-instagram {
+  color: #e1306c; 
+}
+
+.footerIcon .fa-x {
+  color: #1d9bf0;
+}
+
+
+.footerIcon i:hover {
+  transform: scale(1.2); 
+}
+/** footer section end section end **/
